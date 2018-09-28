@@ -1,0 +1,33 @@
+<?php
+$GLOBALS['app_list_strings']['Elastic_boost_options']=array (
+  'GBP' => 'GBP',
+  'USD' => 'USD',
+  'EUR' => 'EUR',
+  'YEN' => 'YEN',
+);
+$GLOBALS['app_list_strings']['totalstaff_list']=array (
+  'A1to10' => '1 to 10',
+  'B11to50' => '11 to 50',
+  'C51to200' => '51 to 200',
+  'D201to500' => '201 to 500',
+  'E501to1000' => '501 to 1000',
+  'F1001to5000' => '1001 to 5000',
+  'G5001to10000' => '5001 to 10000',
+  'H100001' => '10000 plus',
+);
+$app_strings['LBL_GROUPTAB3_1401453748'] = 'Jamitin DB Interface';
+
+$app_strings['LBL_GROUPTAB3_1401453872'] = 'Jamitin DB Interface';
+
+$GLOBALS['app_list_strings']['JDB_totalstaff_list']=array (
+  '1-10' => '1-10',
+  '11-50' => '11-50',
+  '51-200' => '51-200',
+  '201-500' => '201-500',
+  '501-1000' => '501-1000',
+  '1001-5000' => '1001-5000',
+  '5001-10000' => '5,001-10,000',
+  '10001+' => '10,001+',
+  'TBC' => 'Tbc',
+  '' => '',
+);

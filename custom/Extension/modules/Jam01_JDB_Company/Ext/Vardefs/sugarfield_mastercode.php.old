@@ -1,0 +1,10 @@
+<?php
+ // created: 2016-04-11 01:09:04
+$dictionary['Jam01_JDB_Company']['fields']['mastercode']['default']='0';
+$dictionary['Jam01_JDB_Company']['fields']['mastercode']['options']='master_code_dom';
+$dictionary['Jam01_JDB_Company']['fields']['mastercode']['comments']='Industrial segmentation';
+$dictionary['Jam01_JDB_Company']['fields']['mastercode']['duplicate_merge']='disabled';
+$dictionary['Jam01_JDB_Company']['fields']['mastercode']['duplicate_merge_dom_value']='0';
+$dictionary['Jam01_JDB_Company']['fields']['mastercode']['merge_filter']='disabled';
+
+ ?>

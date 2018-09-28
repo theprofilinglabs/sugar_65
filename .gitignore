@@ -27,3 +27,5 @@
 /upload_backup/
 # Ignore Kimai directories
 /KimaiTPL/*
+# Ignore Planning directories
+/planning/*

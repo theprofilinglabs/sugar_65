@@ -1,0 +1,79 @@
+<?php
+// created: 2014-05-27 16:34:13
+$dictionary["jam01_jdb_company_jam03_jdb_contacts_1"] = array (
+  'true_relationship_type' => 'many-to-many',
+  'from_studio' => true,
+  'relationships' => 
+  array (
+    'jam01_jdb_company_jam03_jdb_contacts_1' => 
+    array (
+      'lhs_module' => 'Jam01_JDB_Company',
+      'lhs_table' => 'jam01_jdb_company',
+      'lhs_key' => 'id',
+      'rhs_module' => 'JAM03_JDB_Contacts',
+      'rhs_table' => 'jam03_jdb_contacts',
+      'rhs_key' => 'id',
+      'relationship_type' => 'many-to-many',
+      'join_table' => 'jam01_jdb_company_jam03_jdb_contacts_1_c',
+      'join_key_lhs' => 'jam01_jdb_company_jam03_jdb_contacts_1jam01_jdb_company_ida',
+      'join_key_rhs' => 'jam01_jdb_company_jam03_jdb_contacts_1jam03_jdb_contacts_idb',
+    ),
+  ),
+  'table' => 'jam01_jdb_company_jam03_jdb_contacts_1_c',
+  'fields' => 
+  array (
+    0 => 
+    array (
+      'name' => 'id',
+      'type' => 'varchar',
+      'len' => 36,
+    ),
+    1 => 
+    array (
+      'name' => 'date_modified',
+      'type' => 'datetime',
+    ),
+    2 => 
+    array (
+      'name' => 'deleted',
+      'type' => 'bool',
+      'len' => '1',
+      'default' => '0',
+      'required' => true,
+    ),
+    3 => 
+    array (
+      'name' => 'jam01_jdb_company_jam03_jdb_contacts_1jam01_jdb_company_ida',
+      'type' => 'varchar',
+      'len' => 36,
+    ),
+    4 => 
+    array (
+      'name' => 'jam01_jdb_company_jam03_jdb_contacts_1jam03_jdb_contacts_idb',
+      'type' => 'varchar',
+      'len' => 36,
+    ),
+  ),
+  'indices' => 
+  array (
+    0 => 
+    array (
+      'name' => 'jam01_jdb_company_jam03_jdb_contacts_1spk',
+      'type' => 'primary',
+      'fields' => 
+      array (
+        0 => 'id',
+      ),
+    ),
+    1 => 
+    array (
+      'name' => 'jam01_jdb_company_jam03_jdb_contacts_1_alt',
+      'type' => 'alternate_key',
+      'fields' => 
+      array (
+        0 => 'jam01_jdb_company_jam03_jdb_contacts_1jam01_jdb_company_ida',
+        1 => 'jam01_jdb_company_jam03_jdb_contacts_1jam03_jdb_contacts_idb',
+      ),
+    ),
+  ),
+);

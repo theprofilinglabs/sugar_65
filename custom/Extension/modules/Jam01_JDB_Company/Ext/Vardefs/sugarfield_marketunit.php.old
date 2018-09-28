@@ -1,0 +1,11 @@
+<?php
+ // created: 2016-04-11 01:15:10
+$dictionary['Jam01_JDB_Company']['fields']['marketunit']['default_value']='';
+$dictionary['Jam01_JDB_Company']['fields']['marketunit']['default']='AFRICA';
+$dictionary['Jam01_JDB_Company']['fields']['marketunit']['options']='marketunit_code_dom';
+$dictionary['Jam01_JDB_Company']['fields']['marketunit']['comments']='Market Unit Area';
+$dictionary['Jam01_JDB_Company']['fields']['marketunit']['duplicate_merge']='disabled';
+$dictionary['Jam01_JDB_Company']['fields']['marketunit']['duplicate_merge_dom_value']='0';
+$dictionary['Jam01_JDB_Company']['fields']['marketunit']['merge_filter']='disabled';
+
+ ?>
